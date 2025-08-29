@@ -13,7 +13,7 @@ const Verify = () => {
     const navigate = useNavigate()
 
     const verifyPayment = async (req,res) =>{
-      const responce = await axios.post(url+"api/order/verify",{success,orderId})
+      const responce = await axios.post(url+"/api/order/verify",{success,orderId})
       if(responce.data.success)
       {
         navigate("/myorders")
