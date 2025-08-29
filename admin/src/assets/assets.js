@@ -14,4 +14,5 @@ export const assets ={
     parcel_icon
 }
 
-export const url = 'http://localhost:4000'
+// export const url = 'http://localhost:4000'
+// const url = "https://foodstack-sw8i.onrender.com";
